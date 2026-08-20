@@ -1,24 +1,14 @@
-[build-system]
-requires = ["setuptools>=68.0", "wheel"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "phase-siren-network"
-version = "0.1.0"
-description = "Non-gradient neural computation via hash weight construction and Kuramoto phase dynamics"
+version = "0.2.0"
+description = "Non-gradient neural computation via hash-constructed specialized experts"
 readme = "README.md"
-license = {text = "MIT"}
-requires-python = ">=3.9"
-dependencies = [
-    "numpy>=1.24",
-]
-optional-dependencies = {
-    jax = ["jax>=0.4", "jaxlib>=0.4"],
-    dev = ["pytest", "black", "ruff"],
-}
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.24"]
 
-[project.scripts]
-psn-demo = "scripts.hash_psn_demo:main"
+[project.optional-dependencies]
+dev = []
 
 [tool.setuptools.packages.find]
 include = ["psn*"]

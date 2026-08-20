@@ -1,10 +1,11 @@
-"""
-Phase Siren Network (PSN) - A Non-Gradient Paradigm for Neural Computation
+"""Phase Siren Network (PSN)
 
-Core thesis: neural computation can emerge from phase dynamics alone,
-without gradient-based weight updates. Experts synchronize via Kuramoto
-attractors (RK4-integrated), tokens are routed by phase-resonance hashing,
-and the network self-modifies through topological phase rules.
-
-Reference implementation in JAX.
+Non-gradient neural computation via hash-constructed specialized experts
+and Kuramoto phase dynamics.
 """
+
+from psn.model import PSN, HashDistributor
+from psn.data import load_corpus
+
+__all__ = ["PSN", "HashDistributor", "load_corpus"]
+__version__ = "0.2.0"
