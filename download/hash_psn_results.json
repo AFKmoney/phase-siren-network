@@ -79,24 +79,24 @@
     ]
   },
   "coherence": {
-    "2gram_diversity": 0.2224,
-    "2gram_max_rep": 0.0408,
-    "3gram_diversity": 0.5642,
+    "2gram_diversity": 0.2315,
+    "2gram_max_rep": 0.0375,
+    "3gram_diversity": 0.5637,
     "3gram_max_rep": 0.0192,
-    "4gram_diversity": 0.8202,
-    "4gram_max_rep": 0.0101,
-    "5gram_diversity": 0.9442,
-    "5gram_max_rep": 0.0038,
+    "4gram_diversity": 0.8298,
+    "4gram_max_rep": 0.0106,
+    "5gram_diversity": 0.9461,
+    "5gram_max_rep": 0.0029,
     "vocab_used": 61,
     "word_freqs": {
-      "the": 13,
-      "and": 8,
-      "of": 3,
-      "to": 5,
-      "thou": 0,
+      "the": 7,
+      "and": 7,
+      "of": 2,
+      "to": 6,
+      "thou": 1,
       "thee": 0,
       "shall": 0,
-      "lord": 1,
+      "lord": 0,
       "love": 0,
       "heart": 0,
       "death": 0,
@@ -108,51 +108,51 @@
   "samples": [
     {
       "seed": "HAMLET ",
-      "text": "HAMLET I ze\nI be con this of Edwimse win, siou we o madinat ou, le she my? The he's in to is theduld'tine he $l the pro ant brin the fenepin did d agand am my a my nowing thertus thersur'l, athis th tDWARK:\n"
+      "text": "HAMLET hegris uns, ment my its:\nWARTERGARCINI, nd thavepave avese of mum'dmane\nLUCHEENIA: fuld wor pralithis ty y kine fer s!\n\nJuke alll bearthan issinepate tinter--\nO, than ble yout such he sond t heat thy "
     },
     {
       "seed": "To be, ",
-      "text": "To be, iLIXFORCENG thallaw we thdre an preelloof ghers y hike GS:\nMave bein lord witard an oO:\n\nCOR:\nWhat he e hardeed sengallayque byou cou ns hand struehord th&C:\nTo eave,\nWhe fathar by for cauld ts and me"
+      "text": "To be, hid then gomestron son jud hick me to wik, sublll th my kintor my tand athozen th theREO3 Kithe D:\nTo pe houre ore e s an aust Come wis y se.\n\nPARI father hee rot st no your stiond Ciles ford, shat th"
     },
     {
       "seed": "ROMEO: ",
-      "text": "ROMEO: Heake woAnd s grare hasesto VINGome shathente\nhe ance whiculd GAnd oble to ther cunt.\n\nKind\nBehear therd you cand lacever, boof heer wenderat f asto his thatch mys An helisoneir thosed she s hat enin "
+      "text": "ROMEO: imince Cla hall swerth wRENRYo he re Hadeat falle? torindowly Fir, speagght:\nMake sgr.\n\nBu yoy, yot nown in Justall my theathe, ciustillio, manothe will you wee mQUEEN MuXFORY hatth he she d\nMENRY AN:"
     },
     {
       "seed": "All the ",
-      "text": "All the cand ithere powe e ichance! INTIO:\nLetheat, and then mour a wes pror gave brothon se rer t w lo athe kin oup, ber he bow mat man of now, wher thano, s t thert t he ing\nThe thk.\n\nFost my athe thone hat"
+      "text": "All the thou bchitYould nat tre lo,\nTowher to tioueel ero me\nThat ss im t therit, words, gookes or?\nLORpe;\nAUEESTESS OF YORY knot s con ever moruery,\nWhathy tof mak thome th? tunthour wme gry thery may frinsP"
     },
     {
       "seed": "If music ",
-      "text": "If music bll be marin oushor mineBy pone timengues ou haromen,\nWir yous l mithir tVI:\nWhJOHN$l fo hee, your.\n\nTh-reag st then reat,\nKINCE:\nI:\nG How,\nClain there s poiceSI wict the th'twarry y laderbe;\nCAnd for"
+      "text": "If music braird ank not died chalis answiless dind;\nBROKOL:\nHert is serain ir?\n\nKINNE:\nShawnCithend cas atedes thent ter, fisell'd hit ase isst thHend a f tof sus ine the shomess s thel: a sothis the no thinge"
     },
     {
       "seed": "Now is ",
-      "text": "Now is in bre wome t;\nAndon, s, swonst hano grenear, wares wit, this and ou's se fis wour as tlyn'tingu fr\n\nS:\nSo th the, you pell le mongJULINCORTI be abity go Cord ithunginThichave imse sintowort as fo yo\n"
+      "text": "Now is wely becor berd's f is your Frin as\nAndelosthinn ast thes thay magleakewe sth now I forgoFrowWit the co; iso he hind be nde wince: an bente forve doe t beichave, your th and yout wingen win theso he t"
     },
     {
       "seed": "The slings ",
-      "text": "The slings nou be kithey a sor forover! lessebats, an How ngoo:\nThe thityHe with\nTUS:\nThere thol tair wits th noties.\n\nPET:\nshat tiThade histy cret lemfores, I lore.\n\nInd mofat the is wifroke baid, matengrowasth"
+      "text": "The slings theDIO:\nBolden the sorN a angratste lah? so theetaitheve helfo eark my reark XI:\nMEENRY And maco he y say b.\n\nAs da:\n\nMor witch be favery hand theetich brome allisWNRICHET:\nHis ing seONThe pereat 't:\n"
     },
     {
       "seed": "O spirit ",
-      "text": "O spirit Duke ou?\n\nVI hen QUEENBUMBEng I and tir in y curn!\nHavild IWhimeed:\nYeartut he withe goverews tand thaver thenrguar fore ance, the gods, I anenteirooust havenXENRY VINGARD:\nSire\nSece XENGS:\nBut thor t"
+      "text": "O spirit whome be so strusengervis ofPOnll vin t hews the'erve ld nod an, mences,\nFor an and be soumpleing whearshagaivere fuld leye me mas me ag thimseeray andisth p ithe ound mus indare :\nAs e m quat tar.\n\nY"
     },
     {
       "seed": "Soft you ",
-      "text": "Soft you the ither whor ofe to be cha as not the ave and mand,\nS's\nAndth brie ere d\nHave,\nThe of ke he ; se:\nMy wer atthe noth sir ce henr prour? an y nouse I thers fof t lay now set, he begele-d n pe be s rel"
+      "text": "Soft you ast s I cong   Gond and thim theressbaven tions melon paide and tou ithe blesiow, she od ME VINGS:\nHaver ternitco thater the be unt Anou d bet and tly cod le, frome pan pur theat ke ithe for s me,\nNar"
     },
     {
       "seed": "Thus con ",
-      "text": "Thus con w theem, HENVI:\nThat notYour des k hisss ithee as flawhe and or es arts sondld,---\n\nHadesucow'sher pre croncire com Her were her she an my truce prawhof :\nAnd yout so bes a withis.\n\nAnd downctizead th"
+      "text": "Thus con ther haughe held ke is sta!\nRAUTUS:\nWhis thy, und un yought. We any t le to fore stacay shonde ke'll hine f\nThe QUS:\nForound nd Sithere fathaGod on ing he cere wideady hather. I youll th to used and d"
     }
   ],
   "temperature_sweep": {
-    "T=0.3": "HAMLET the there the the he s to not the the the that the se there me the one the your the the withe",
-    "T=0.5": "HAMLET and ther he shich t se arie surst heng a son is be me the the min this prall not he the thou ",
-    "T=0.8": "HAMLET foretond ath and hathous soes to now heatent waratho sin th Lortimencoman I kis a st where sh",
-    "T=1.0": "HAMLET and,$l con smeeZWInighercleshopo$l be suFir, he to th ther h andis sawn\nfif Ducr,\nWhastronge,",
-    "T=1.5": "HAMLET tUCK:\nsHUKode'ARSem, noRircblMarERLEauBEN:\nHerts, i-moh ts\ncalall Wll\nME\nmand$lgr be ren rd i",
-    "T=2.0": "HAMLET fanday?haLddsmpeomyi\n:\nStoo:\nNoTRY3GShgghJudAp3xsLO-OJUgVetFBIyuVojoWGmeMs, ns-UCKCUSw lintja"
+    "T=0.3": "HAMLET the and the athe the the mand a st and ther he the the the the the the we shat nothe do the t",
+    "T=0.5": "HAMLET her then the d this your mat I suchis st withe the Mis to thiment terks thente we prome, fat ",
+    "T=0.8": "HAMLET witche Pouner!\n\nLies ingbr than ight thow\nEve thall knot s of.des CING Rousthe cruck Kat I no",
+    "T=1.0": "HAMLET I pes.\n\nKI wouswel t.\n\nCAPrauhail.\n\nNO:\nh cot f forvithre dishiss;\nBeeake adMCame whergof E:\n",
+    "T=1.5": "HAMLET qQZECcaildmet de danalak grithit Mak him\nImpe3 uLADY aH?\nYet mus:f Madeart bouxtoVILUCK:Ch lo",
+    "T=2.0": "HAMLET G jc,\nTRAN\nFRhusoodsm?\nWarNROxb 3 ne!:l, VI:yn'F?\nFRYiF Ureausbe K od!xQUZfrippzlINESy dLOuRi"
   }
 }
