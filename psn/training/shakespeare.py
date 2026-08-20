@@ -14,12 +14,17 @@ The data pipeline produces:
 - target_ids: Next-token targets for adaptation
 - Character-level encode/decode for text generation
 """
-import jax
-import jax.numpy as jnp
 import numpy as np
 from typing import Tuple, List, Dict, Optional
 import urllib.request
 import os
+
+try:
+    import jax
+    import jax.numpy as jnp
+    HAS_JAX = True
+except ImportError:
+    HAS_JAX = False
 
 
 class ShakespeareData:
@@ -209,7 +214,7 @@ And hate the idle pleasures of these days.
         print(f"[ShakespeareData] Total tokens: {len(self.token_ids)}")
         print(f"[ShakespeareData] Usable sequences: {self.num_sequences}")
 
-    def get_batch(self, batch_size: int, start_idx: int) -> Tuple[jax.Array, jax.Array]:
+    def get_batch(self, batch_size: int, start_idx: int):
         """Get a batch of input/target sequences.
 
         Args:
@@ -234,9 +239,14 @@ And hate the idle pleasures of these days.
             inputs.append(inp)
             targets.append(tgt)
 
+        if HAS_JAX:
+            return (
+                jnp.array(np.array(inputs), dtype=jnp.int32),
+                jnp.array(np.array(targets), dtype=jnp.int32),
+            )
         return (
-            jnp.array(np.array(inputs), dtype=jnp.int32),
-            jnp.array(np.array(targets), dtype=jnp.int32),
+            np.array(inputs, dtype=np.int32),
+            np.array(targets, dtype=np.int32),
         )
 
     def encode(self, text: str) -> List[int]:

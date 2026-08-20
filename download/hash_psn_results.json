@@ -1,0 +1,158 @@
+{
+  "config": {
+    "num_experts": 32,
+    "weight_dim": 64,
+    "vocab_size": 65,
+    "total_tokens": 1115394
+  },
+  "phase": {
+    "order_parameter": 0.9080642461776733,
+    "mean_phase": -1.536097526550293,
+    "phase_spread": 1.5182240009307861,
+    "expert_phases": [
+      3.987975835800171,
+      4.047538757324219,
+      4.104252338409424,
+      4.158649444580078,
+      4.2111382484436035,
+      4.262037754058838,
+      4.311605930328369,
+      4.360054969787598,
+      4.407564640045166,
+      4.45428991317749,
+      4.500364780426025,
+      4.5459113121032715,
+      4.591037750244141,
+      4.635846138000488,
+      4.680431365966797,
+      4.724883556365967,
+      4.76929235458374,
+      4.81374454498291,
+      4.858329772949219,
+      4.903138160705566,
+      4.9482645988464355,
+      4.993810653686523,
+      5.039885997772217,
+      5.086610794067383,
+      5.134120941162109,
+      5.182569980621338,
+      5.232137680053711,
+      5.283037185668945,
+      5.335525989532471,
+      5.389923572540283,
+      5.44663667678833,
+      5.506199836730957
+    ],
+    "expert_omegas": [
+      0.5,
+      0.5806451439857483,
+      0.6612903475761414,
+      0.7419354915618896,
+      0.8225806355476379,
+      0.9032257795333862,
+      0.9838709831237793,
+      1.0645161867141724,
+      1.1451612710952759,
+      1.225806474685669,
+      1.3064515590667725,
+      1.3870967626571655,
+      1.4677419662475586,
+      1.548387050628662,
+      1.6290322542190552,
+      1.7096774578094482,
+      1.7903225421905518,
+      1.8709677457809448,
+      1.951612949371338,
+      2.0322580337524414,
+      2.112903118133545,
+      2.1935484409332275,
+      2.274193525314331,
+      2.3548386096954346,
+      2.435483932495117,
+      2.5161290168762207,
+      2.596774101257324,
+      2.677419424057007,
+      2.7580645084381104,
+      2.838709592819214,
+      2.9193549156188965,
+      3.0
+    ]
+  },
+  "coherence": {
+    "2gram_diversity": 0.2224,
+    "2gram_max_rep": 0.0408,
+    "3gram_diversity": 0.5642,
+    "3gram_max_rep": 0.0192,
+    "4gram_diversity": 0.8202,
+    "4gram_max_rep": 0.0101,
+    "5gram_diversity": 0.9442,
+    "5gram_max_rep": 0.0038,
+    "vocab_used": 61,
+    "word_freqs": {
+      "the": 13,
+      "and": 8,
+      "of": 3,
+      "to": 5,
+      "thou": 0,
+      "thee": 0,
+      "shall": 0,
+      "lord": 1,
+      "love": 0,
+      "heart": 0,
+      "death": 0,
+      "soul": 0,
+      "king": 0,
+      "queen": 0
+    }
+  },
+  "samples": [
+    {
+      "seed": "HAMLET ",
+      "text": "HAMLET I ze\nI be con this of Edwimse win, siou we o madinat ou, le she my? The he's in to is theduld'tine he $l the pro ant brin the fenepin did d agand am my a my nowing thertus thersur'l, athis th tDWARK:\n"
+    },
+    {
+      "seed": "To be, ",
+      "text": "To be, iLIXFORCENG thallaw we thdre an preelloof ghers y hike GS:\nMave bein lord witard an oO:\n\nCOR:\nWhat he e hardeed sengallayque byou cou ns hand struehord th&C:\nTo eave,\nWhe fathar by for cauld ts and me"
+    },
+    {
+      "seed": "ROMEO: ",
+      "text": "ROMEO: Heake woAnd s grare hasesto VINGome shathente\nhe ance whiculd GAnd oble to ther cunt.\n\nKind\nBehear therd you cand lacever, boof heer wenderat f asto his thatch mys An helisoneir thosed she s hat enin "
+    },
+    {
+      "seed": "All the ",
+      "text": "All the cand ithere powe e ichance! INTIO:\nLetheat, and then mour a wes pror gave brothon se rer t w lo athe kin oup, ber he bow mat man of now, wher thano, s t thert t he ing\nThe thk.\n\nFost my athe thone hat"
+    },
+    {
+      "seed": "If music ",
+      "text": "If music bll be marin oushor mineBy pone timengues ou haromen,\nWir yous l mithir tVI:\nWhJOHN$l fo hee, your.\n\nTh-reag st then reat,\nKINCE:\nI:\nG How,\nClain there s poiceSI wict the th'twarry y laderbe;\nCAnd for"
+    },
+    {
+      "seed": "Now is ",
+      "text": "Now is in bre wome t;\nAndon, s, swonst hano grenear, wares wit, this and ou's se fis wour as tlyn'tingu fr\n\nS:\nSo th the, you pell le mongJULINCORTI be abity go Cord ithunginThichave imse sintowort as fo yo\n"
+    },
+    {
+      "seed": "The slings ",
+      "text": "The slings nou be kithey a sor forover! lessebats, an How ngoo:\nThe thityHe with\nTUS:\nThere thol tair wits th noties.\n\nPET:\nshat tiThade histy cret lemfores, I lore.\n\nInd mofat the is wifroke baid, matengrowasth"
+    },
+    {
+      "seed": "O spirit ",
+      "text": "O spirit Duke ou?\n\nVI hen QUEENBUMBEng I and tir in y curn!\nHavild IWhimeed:\nYeartut he withe goverews tand thaver thenrguar fore ance, the gods, I anenteirooust havenXENRY VINGARD:\nSire\nSece XENGS:\nBut thor t"
+    },
+    {
+      "seed": "Soft you ",
+      "text": "Soft you the ither whor ofe to be cha as not the ave and mand,\nS's\nAndth brie ere d\nHave,\nThe of ke he ; se:\nMy wer atthe noth sir ce henr prour? an y nouse I thers fof t lay now set, he begele-d n pe be s rel"
+    },
+    {
+      "seed": "Thus con ",
+      "text": "Thus con w theem, HENVI:\nThat notYour des k hisss ithee as flawhe and or es arts sondld,---\n\nHadesucow'sher pre croncire com Her were her she an my truce prawhof :\nAnd yout so bes a withis.\n\nAnd downctizead th"
+    }
+  ],
+  "temperature_sweep": {
+    "T=0.3": "HAMLET the there the the he s to not the the the that the se there me the one the your the the withe",
+    "T=0.5": "HAMLET and ther he shich t se arie surst heng a son is be me the the min this prall not he the thou ",
+    "T=0.8": "HAMLET foretond ath and hathous soes to now heatent waratho sin th Lortimencoman I kis a st where sh",
+    "T=1.0": "HAMLET and,$l con smeeZWInighercleshopo$l be suFir, he to th ther h andis sawn\nfif Ducr,\nWhastronge,",
+    "T=1.5": "HAMLET tUCK:\nsHUKode'ARSem, noRircblMarERLEauBEN:\nHerts, i-moh ts\ncalall Wll\nME\nmand$lgr be ren rd i",
+    "T=2.0": "HAMLET fanday?haLddsmpeomyi\n:\nStoo:\nNoTRY3GShgghJudAp3xsLO-OJUgVetFBIyuVojoWGmeMs, ns-UCKCUSw lintja"
+  }
+}
