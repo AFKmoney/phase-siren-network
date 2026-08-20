@@ -1,2 +1,13 @@
 skills/
 node_modules/
+.env
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+download/hash_psn_results.json
+tool-results/

@@ -45,7 +45,7 @@ class ShakespeareData:
     def __init__(
         self,
         seq_len: int = 256,
-        download_path: str = "/home/z/my-project/download/shakespeare.txt",
+        download_path: str = "download/shakespeare.txt",
     ):
         self.seq_len = seq_len
         self.download_path = download_path

@@ -75,7 +75,7 @@ class PSNConfig:
     # Logging / Metrics
     # ------------------------------------------------------------------
     log_interval: int = 10         # Log every N batches
-    save_metrics_path: str = "/home/z/my-project/download/psn_metrics.jsonl"
+    save_metrics_path: str = "download/psn_metrics.jsonl"
 
 
 @dataclass

@@ -36,7 +36,7 @@ def main():
         log_interval=5,
         gen_seed="HAMLET ",
         gen_length=300,
-        save_metrics_path="/home/z/my-project/download/psn_metrics.jsonl",
+        save_metrics_path="download/psn_metrics.jsonl",
     )
 
     # Train
@@ -46,7 +46,7 @@ def main():
     # Export for web demo
     export_for_web_demo(
         metrics,
-        "/home/z/my-project/download/psn_demo_data.json",
+        "download/psn_demo_data.json",
     )
 
     # Generate final sample

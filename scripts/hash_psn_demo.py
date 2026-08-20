@@ -120,7 +120,7 @@ def main():
         "phase": phase_info, "coherence": coherence,
         "samples": samples, "temperature_sweep": temp_samples,
     }
-    out = "/home/z/my-project/download/hash_psn_results.json"
+    out = "download/hash_psn_results.json"
     with open(out, 'w') as f:
         json.dump(results, f, indent=2, default=str)
     print(f"\nResults -> {out}")
